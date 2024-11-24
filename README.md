@@ -26,7 +26,7 @@ Ce projet consiste en la création d'un site web simple hébergé sur un serveur
 ### 1. Installation d'Apache
 
 ```bash
-sudo yum install httpd
+sudo yum install httpd 
 
 ### 2. Démarrer le serveur Apache
 
