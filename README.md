@@ -23,25 +23,25 @@ Ce projet consiste en la création d'un site web simple hébergé sur un serveur
 
 ## Installation
 
-### 1. Installation d'Apache
+1. Installation d'Apache
 
 ```bash
 sudo yum install httpd 
 
-### 2. Démarrer le serveur Apache
+2. Démarrer le serveur Apache
 
 ```bash
 
 sudo systemctl start httpd
 
-### 3. Placer le fichier index.html
+3. Placer le fichier index.html
 Copiez votre fichier index.html dans le répertoire /var/www/html.
 
 ```bash
 
 sudo cp index.html /var/www/html/
 
-### 4. Vérification
+4. Vérification
 Allez sur votre navigateur et entrez l'adresse IP de votre serveur pour vérifier si le site fonctionne correctement :
 
 http://<adresse-ip-de-votre-serveur>
